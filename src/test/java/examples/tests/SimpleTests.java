@@ -1,5 +1,4 @@
 package examples.tests;
-
 import examples.helpers.DriverUtils;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
@@ -17,13 +16,9 @@ public class SimpleTests extends TestBase {
     @Description("Check that Support tab should open")
     @DisplayName("Support tab should open")
     void supportTabOpenTest() {
-        step("Open url'https://www.apple.com'", () -> {
-            open("https://www.apple.com");
-        });
+        step("Open url'https://www.apple.com'", () -> open("https://www.apple.com"));
 
-        step("Click on Support button", () -> {
-            $(".ac-gn-link-support").click();
-        });
+        step("Click on Support button", () -> $(".ac-gn-link-support").click());
 
         step("Support page 'https://support.apple.com/' should open", () -> {
             $(byText("Apple Support")).shouldBe(visible);
