@@ -8,10 +8,9 @@ import static com.codeborne.selenide.Selenide.$x;
 
 /*
     Locators examples
-    Author: https://github.com/svasenkov
- */
+*/
 
-public class CssXpathExamples {
+/*/public class CssXpathExamples {
 
     void cssXpathExamples() {
 
@@ -63,3 +62,4 @@ public class CssXpathExamples {
         $(withText("lo qa.guru"));
     }
 }
+ */

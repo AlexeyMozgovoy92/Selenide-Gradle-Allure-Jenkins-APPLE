@@ -15,11 +15,9 @@ import static com.codeborne.selenide.Selenide.*;
 
 /*
     Selenide commands examples
-    Author: https://github.com/vinogradoff
-    this is not a full list, just the most common
- */
+*/
 
-public class SelenideSnippets {
+/*/public class SelenideSnippets {
 
     void browser_command_examples() {
 
@@ -211,3 +209,4 @@ public class SelenideSnippets {
         long fortyTwo = executeJavaScript("return arguments[0]*arguments[1];", 6, 7);
     }
 }
+ */
