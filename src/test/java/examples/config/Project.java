@@ -7,8 +7,8 @@ import java.util.Objects;
 public class Project {
     public static ProjectConfig config = ConfigFactory.create(ProjectConfig.class, System.getProperties());
 
-    public static boolean isWebMobile() {
-        return !Objects.equals(config.browserMobileView(), "390x844");
+/*    public static boolean isWebMobile() {
+        return !config.browserMobileView().equals("");
     }
 
     public static boolean isRemoteWebDriver() {
@@ -17,5 +17,5 @@ public class Project {
 
     public static boolean isVideoOn() {
         return !config.videoStorage().equals("");
-    }
+    }*/
 }
