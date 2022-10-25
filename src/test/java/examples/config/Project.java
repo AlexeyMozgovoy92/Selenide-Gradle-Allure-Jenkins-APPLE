@@ -6,7 +6,7 @@ public class Project {
     public static ProjectConfig config = ConfigFactory.create(ProjectConfig.class, System.getProperties());
 
     public static boolean isWebMobile() {
-        return !config.browserMobileView().equals("");
+        return !config.browserMobileView().equals("390x844");
     }
 
     public static boolean isRemoteWebDriver() {
