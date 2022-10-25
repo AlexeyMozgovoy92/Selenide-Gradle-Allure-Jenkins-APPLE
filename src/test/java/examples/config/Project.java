@@ -2,12 +2,12 @@ package examples.config;
 
 import org.aeonbits.owner.ConfigFactory;
 
-import java.util.Objects;
+
 
 public class Project {
     public static ProjectConfig config = ConfigFactory.create(ProjectConfig.class, System.getProperties());
 
-/*    public static boolean isWebMobile() {
+    public static boolean isWebMobile() {
         return !config.browserMobileView().equals("");
     }
 
@@ -17,5 +17,5 @@ public class Project {
 
     public static boolean isVideoOn() {
         return !config.videoStorage().equals("");
-    }*/
+    }
 }
