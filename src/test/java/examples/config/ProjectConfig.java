@@ -17,6 +17,7 @@ public interface ProjectConfig extends Config {
     @DefaultValue("1920x1080")
     String browserSize();
     String browserMobileView();
+   @DefaultValue("http://user1:1234@selenoid.autotests.cloud/wd/hub")
     String remoteDriverUrl();
     String videoStorage();
 }
