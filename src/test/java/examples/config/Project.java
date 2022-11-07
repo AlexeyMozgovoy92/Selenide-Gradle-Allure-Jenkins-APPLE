@@ -8,11 +8,12 @@ public class Project {
     public static ProjectConfig config = ConfigFactory.create(ProjectConfig.class, System.getProperties());
 
     public static boolean isWebMobile() {
-        return !config.browserMobileView().equals("400x500");
+        return !config.browserMobileView().equals("false");
     }
 
     public static boolean isRemoteWebDriver() {
-        return !config.remoteDriverUrl().equals("http://user1:1234@selenoid.autotests.cloud/wd/hub");
+        config.remoteDriverUrl();
+        return true;
     }
 
     /*public static boolean isVideoOn() {
