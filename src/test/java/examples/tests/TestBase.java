@@ -1,6 +1,6 @@
 package examples.tests;
 
-
+import examples.config.Project;
 import examples.helpers.AllureAttachments;
 import examples.helpers.DriverSettings;
 import examples.helpers.DriverUtils;
@@ -37,7 +37,7 @@ public class TestBase {
 
         Selenide.closeWebDriver();
 
-        AllureAttachments.addVideo(sessionId);
+            AllureAttachments.addVideo(sessionId);
 
     }
 }
