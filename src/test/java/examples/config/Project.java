@@ -8,15 +8,14 @@ public class Project {
     public static ProjectConfig config = ConfigFactory.create(ProjectConfig.class, System.getProperties());
 
     public static boolean isWebMobile() {
-        return !config.browserMobileView().equals("false");
+        return !config.browserMobileView().equals("");
     }
 
     public static boolean isRemoteWebDriver() {
-        config.remoteDriverUrl();
-        return true;
+        return !config.remoteDriverUrl().equals("");
     }
 
-    /*public static boolean isVideoOn() {
+    public static boolean isVideoOn() {
         return !config.videoStorage().equals("");
-    }*/
+    }
 }
