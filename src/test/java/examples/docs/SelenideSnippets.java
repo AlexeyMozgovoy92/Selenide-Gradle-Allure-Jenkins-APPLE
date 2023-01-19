@@ -1,17 +1,6 @@
 package examples.docs;
 
-import com.codeborne.selenide.*;
-import org.openqa.selenium.Keys;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.time.Duration;
-
-import static com.codeborne.selenide.CollectionCondition.*;
-import static com.codeborne.selenide.Condition.empty;
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.*;
-import static com.codeborne.selenide.Selenide.*;
 
 /*
     Selenide commands examples

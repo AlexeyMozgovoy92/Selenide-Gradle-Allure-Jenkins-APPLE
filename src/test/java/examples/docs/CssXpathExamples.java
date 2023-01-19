@@ -1,10 +1,5 @@
 package examples.docs;
 
-import org.openqa.selenium.By;
-
-import static com.codeborne.selenide.Selectors.*;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$x;
 
 /*
     Locators examples
